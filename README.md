@@ -29,11 +29,11 @@ Essa é uma solução para o desafio "Front End Mentor" [NFT preview card compon
 
 - HTML5 
 - CSS 3 
-- FlexBox
+- Figma
 
 ## O que aprendi
 
-Nesse projeto eu treinei minha habilidades em HTML, CSS3 e FlexBox.
+Nesse projeto eu treinei minha habilidades em HTML, CSS3 e Figma.
 
 
 ## Author
