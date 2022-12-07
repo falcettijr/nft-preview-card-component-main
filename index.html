@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | NFT preview card component</title>
+
+<style>
+  
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+width: 1846px;
+height: 1112px;
+background-color: #0D192B;
+}
+
+.infocard{
+position: absolute;
+width: 465px;
+height: 744px;
+left: calc(50% - 465px/2 - 0.5px);
+top: calc(50% - 744px/2);
+background: #14253D;
+border-radius: 20px;
+}
+
+.img-principal{
+position: absolute;
+width: 393px;
+height: 402px;
+left: 36px;
+top: 25px;
+border-radius: 20px;
+}
+
+h2.title{
+position: absolute;
+width: 339.43px;
+height: 34px;
+left: 36px;
+top: 447px;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 35px;
+color: #FFFFFF;
+}
+
+h2.title:hover{
+color: hsl(178, 100%, 50%);
+cursor: pointer;
+position: absolute;
+width: 339.43px;
+height: 34px;
+left: 36px;
+top: 447px;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 35px;
+}
+
+
+p.description{
+position: absolute;
+width: 393px;
+height: 48px;
+left: 36px;
+top: 508px;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: #8BACDA;
+}
+
+p.eth{
+  position: absolute;
+width: 81.15px;
+height: 18px;
+left: 51px;
+top: 588px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+color: hsl(178, 100%, 50%);
+}
+
+
+p.time{
+position: absolute;
+width: 74px;
+height: 16px;
+left: 343px;
+top: 589px;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #8BACDA;
+}
+
+hr{
+position: absolute;
+width: 393px;
+height: 0px;
+left: 36px;
+top: 643px;
+border: 1px solid #2F415B;
+}
+
+img.avatar{
+position: absolute;
+width: 41px;
+height: 41px;
+left: 36px;
+top: 663px;
+background: url(image-avatar.png);
+}
+
+p.creator{
+position: absolute;
+width: 272px;
+height: 23px;
+left: 87px;
+top: 650px;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: #8BACDA;
+}
+
+img.eth{
+position: absolute;
+left: 8%;
+right: 87.56%;
+top: 81%;
+bottom: 18.41%;
+}
+
+img.time{
+position: absolute;
+left: 69.6%;
+right: 27.53%;
+top: 81.5%;
+bottom: 18.64%;
+}
+
+span{
+  color: white;
+}
+span:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.img-principal:hover{
+position: absolute;
+width: 393px;
+height: 402px;
+left: 36px;
+top: 25px;
+border-radius: 20px;
+opacity: 0.5;
+}
+
+</style>
+
+</head>
+
+<body>
+  
+  <div class="infocard">
+    <img class="img-principal" src="/images/image-equilibrium.jpg" alt="">
+    <h2 class="title">Equilibrium #3429</h2>
+    <p class="description">Our Equilibrium collection promotes balance and calm.</p>
+    <p class="eth">0.041 ETH</p>
+    <img class="eth" src="/images/icon-ethereum.svg" alt="">
+    <p class="time">3 days left</p>
+    <img class="time" src="/images/icon-clock.svg" alt="">
+    <hr>
+    <img class="avatar" src="/images/image-avatar.png" alt="">
+    <p class="creator">Creation of <span>Jules Wyvern</span></p>
+  </div>
+    
+</body>
+</html>
