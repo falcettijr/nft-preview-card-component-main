@@ -22,8 +22,8 @@ Essa é uma solução para o desafio "Front End Mentor" [NFT preview card compon
 
 ## Links
 
-- Solution URL: [Solução] ()
-- Live Site URL: [Live Site]()
+- Solution URL: [Solução] (https://www.frontendmentor.io/solutions/nft-preview-card-component-kMx1nZd4Bt/z)
+- Live Site URL: [Live Site](https://falcettijr.github.io/nft-preview-card-component-main/)
 
 ## Feito com
 
