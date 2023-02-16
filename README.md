@@ -18,7 +18,7 @@ Essa é uma solução para o desafio "Front End Mentor" [NFT preview card compon
 
 ## Screenshot
 
-![Screenshot](/images/screenshot.png)
+![Screenshot](/images/screenshot.png#vitrinedev)
 
 ## Links
 
